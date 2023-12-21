@@ -1,0 +1,171 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    width: 1350px;
+    /* border: 2px red solid; */
+    margin: 0px auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px;
+}
+#logo{
+    float: left;
+}
+
+#logo h1 a{
+    float: left;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ec3535;
+}
+#searchbox
+{
+    float: right;
+    background-color:#0080ff;
+    width: 500px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.text
+{
+    float: left;
+    width: 350px;
+    padding: 5px;
+    font-size: 15px;
+    color: #514141;
+    font-weight: bold;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    background: #fff url(../images/search.png) no-repeat right center;
+}
+.submit
+{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #514141;
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+#menu{
+    height: 35px;
+    background-color: #0080ff;
+    padding: 10px 0;
+}
+
+#menu a{
+    padding: 0px 75px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    text-transform: capitalize;
+}
+
+#menu a:last-child{
+    border-right: none;
+}
+
+#menu a:hover,#menu a.active{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logo a{
+    color: red;
+}
+
+#intro{
+    background-color: rgb(45, 116, 178);
+    margin-top: 15px;
+    padding: 20px;
+}
+
+#intro h3{
+    color: blackS;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#intro p{
+    color: rgb(189, 181, 181);
+    font-size: 30px;
+}
+
+#box{
+    margin-top: 100px;
+}
+
+.sidebar
+{
+    height: 500px;
+    width: 600px;
+    border: 2px solid #0080ff;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3
+{
+    color: #514141;
+    font-size: 30px;
+}
+.sidebar ul
+{
+    padding-top: 10px;
+}
+.sidebar ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #57565d;
+}
+.sidebar ul li a:hover
+{
+    color: #0080ff;
+    font-size: 22px;
+    font-weight: bold;
+}
+#leftsb ul li
+{
+    padding: 5px 0px 5px 10px;
+    list-style-image: url(../images/checkbox.png);
+}
+#rightsb ul li
+{
+    padding: 20px 0px 20px 30px;
+    list-style-image: url(../images/background.png)
+}
+#leftsb
+{
+    float: left;
+}
+#rightsb
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+#footer
+{
+    height: 50px;
+    background-color: #0080ff;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+#footer p
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
